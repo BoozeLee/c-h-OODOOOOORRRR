@@ -1,0 +1,121 @@
+Here's a detailed example of how Stripe integration for your energetic template marketplace will work—plus a clear walkthrough so you (or anyone else) can quickly test and validate the entire selling flow.
+
+***
+
+## Example: Stripe Integration & Energetic Template Delivery
+
+### 1. **How It Works (Step by Step)**
+
+**User Experience:**
+1. User visits your "Amphetamemes" store—sees all energetic template bundles (Single, Starter Pack, Creator Bundle, Complete Collection).
+2. They select a product (e.g., "Creator Bundle - 5 Templates") and click **Buy Now**.
+3. Stripe Checkout opens—user enters payment details (secure, no data handled by your server).
+4. Payment success = user redirected to a secure download page (auto-login/validation by Stripe session ID) or emailed a download link.
+5. User downloads their bundle: Each template is dynamically generated and includes your energetic fields (e.g., event log, trend intensity, energy score, JSON/CSV with metadata).
+
+**Backend Flow:**
+- Your Node.js/Express server receives a payment webhook from Stripe (secure signal that the transaction completed).
+- The app then:  
+  - Generates the energetic templates on-demand (pulling real-time data, Perplexity context, current narrative values)
+  - Packages them (ZIP, PDF, etc.) with all metadata/lineage
+  - Sends download link (or direct email) to the user
+
+***
+
+### 2. **Example Code (Node.js/Express Backend)**
+
+```js
+// Example: Stripe endpoint and energetic template generation
+
+const express = require('express');
+const Stripe = require('stripe');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const fs = require('fs'); // for file operations
+
+const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
+const app = express();
+
+app.use(bodyParser.json());
+app.use(cors());
+
+// Endpoint for listing bundles and starting Stripe Checkout
+app.post('/create-checkout-session', async (req, res) => {
+  const { bundleType } = req.body; // e.g., 'single', 'starter', etc.
+  const priceMap = {
+    single: 499,
+    starter: 1299,
+    creator: 1999,
+    complete: 3499
+  };
+
+  const session = await stripe.checkout.sessions.create({
+    payment_method_types: ['card'],
+    line_items: [{
+      price_data: {
+        currency: 'usd',
+        product_data: { name: `Amphetamemes ${bundleType} pack` },
+        unit_amount: priceMap[bundleType]
+      },
+      quantity: 1
+    }],
+    mode: 'payment',
+    success_url: 'https://YOURDOMAIN.com/success?session_id={CHECKOUT_SESSION_ID}',
+    cancel_url: 'https://YOURDOMAIN.com/cancel'
+  });
+
+  res.json({ url: session.url });
+});
+
+// Stripe webhook to trigger energetic template generation and delivery
+app.post('/webhook', bodyParser.raw({type: 'application/json'}), (request, response) => {
+  const event = request.body;
+
+  if (event.type === 'checkout.session.completed') {
+    const session = event.data.object;
+    // 1. Generate energetic templates based on purchased bundle
+    // 2. Package (with energyScore, event log, dynamic metadata...)
+    // 3. Email download link or attach ZIP (Mailgun, SendGrid, or direct)
+    // Example: createBundleFile(session)
+    console.log(`[Energetic Bundle Generated]: ${session.id}`);
+    // Here: call your dynamic prompt/template generator, add all energetic fields!
+  }
+  response.status(200).send('Webhook processed!');
+});
+
+const PORT = 3001;
+app.listen(PORT, () => console.log(`Stripe server running on ${PORT}`));
+```
+
+***
+
+### 3. **How to Test It (as You)**
+
+1. **Plug in your Stripe API keys**
+   - Go to your [Stripe Dashboard > Developers > API keys](https://dashboard.stripe.com/apikeys)
+   - Add `STRIPE_SECRET_KEY` (never share publicly!)
+
+2. **Run your Replit app locally or deploy**
+   - Node on port 3001 (as in the example)
+   - Have your React frontend POST to the `/create-checkout-session` endpoint with the selected bundle
+   - You should see a Stripe Checkout page
+
+3. **Complete a test payment**
+   - Stripe has built-in test card numbers (e.g., `4242 4242 4242 4242`)
+   - On completion, you'll be redirected (simulate your success page)
+
+4. **See webhook trigger in logs**
+   - The webhook endpoint will log "[Energetic Bundle Generated]: <Session ID>"
+   - Insert code to actually generate and email/deliver the templates (can use Nodemailer + download link)
+
+***
+
+### 4. **Guaranteeing Energetic Model Fidelity**
+
+- Each template is generated with your energyScore, event logs, remix lineage, and trend intensity at the moment of purchase
+- Files are zipped and emailed/provided as authenticated downloads
+- Optionally: add a digital signature or chain-of-custody hash for provenance
+
+***
+
+**Let me know if you want code for the actual dynamic template generator (including energetic JSON fields and file generation), or a step-by-step test plan for your whole checkout experience. You can safely test this on Replit, using Stripe’s test environment, before going live.**
