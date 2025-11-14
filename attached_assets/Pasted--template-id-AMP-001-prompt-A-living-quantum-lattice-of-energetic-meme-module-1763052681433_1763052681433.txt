@@ -1,0 +1,102 @@
+[
+  {
+    "template_id": "AMP-001",
+    "prompt": "A living quantum lattice of energetic meme modules: morphing nodes as qubits pulsing with chaotic energy, linked by golden ratio bridges (Φ = 1.618) and swirling fractal pathways with superpositioned math symbols (|ψ⟩ = α|0⟩ + β|1⟩). Network undulates like sentient Fibonacci shell. Overlaid: wave interference, viral ripples (2.8x), remix trees. Colors: plasma magenta, electric cyan, fractal gold, void black. Metrics embedded pulsing: 'Φ = 1.618', 'Nodes Entangled: 49+', 'Viral Sync: 2.8x', 'Energy Flux: 0.94'. 9:16 vertical, constant motion with quantum geometry animations. Style: psychedelic comix + quantum diagrams + glitchcore + superpositioned art. No faces—pure energetic chaos.",
+    "metadata": {
+      "category": "quantum_lattice",
+      "energy_score": 0.94,
+      "viral_coefficient": 2.8,
+      "trend_tags": ["AI", "crypto", "consciousness"]
+    }
+  },
+  {
+    "template_id": "AMP-002",
+    "prompt": "Climate crisis at 0.91 temperature: melting Earth fragments orbiting as glowing nodes in quantum lattice, interconnected by golden-ratio bridges dissolving into plasma streams with superimposed quantum equations (e^{-iHt/ℏ}). Nodes pulse with fractal ice caps, entangled wave currents, QAOA-optimized carbon clusters. Overlay: 'Trend: Climate +91%', 'Nodes: 52 Entangled', 'Viral: 3.1x'. Colors: toxic orange, glacial cyan, radiation purple, void black. Style: psychedelic comix + quantum circuits + data glitchcore + superpositioned art. 9:16 vertical, morphing animations with geometry math symbols. No faces—planetary chaos.",
+    "metadata": {
+      "category": "climate_crisis",
+      "energy_score": 0.96,
+      "viral_coefficient": 3.1,
+      "trend_tags": ["climate", "activism", "truth"]
+    }
+  },
+  {
+    "template_id": "AMP-003",
+    "prompt": "Swirling vortex of fragmented consciousness: faces dissolving into binary streams, neural networks tangling with logos, algorithm symbols pulsing as predatory eyes with superpositioned math (|ψ⟩ superposition). Central void: 'The Singularity?' with golden spirals. Metrics: 'AI Anxiety: 0.88', 'Job Loss: +73%', 'Nodes Collapsing: 41'. Colors: clinical white, blood red, electric blue, charcoal black. Style: dystopian psychedelic + cyberpunk glitch + underground poster + quantum superpositioned art. 9:16 vertical, inward spiral animations with geometry symbols. Truth-revealing chaos.",
+    "metadata": {
+      "category": "AI_anxiety",
+      "energy_score": 0.88,
+      "viral_coefficient": 2.4,
+      "trend_tags": ["AI", "jobs", "existential"]
+    }
+  },
+  {
+    "template_id": "AMP-004",
+    "prompt": "Infinite assembly line of silhouettes in hamster wheels, connected by gig-app chains with superimposed quantum math (density matrix ρ). Wheels spin faster, coins evaporate into clouds with Fibonacci spirals. Metrics: 'Burnout: 0.92', 'Wage Gap: -67%', 'Viral Truth: 2.6x'. Colors: bruise purple, currency gold, ash gray, spark orange. Style: labor poster + psychedelic protest + data horror glitchcore + superpositioned art. 9:16 vertical, relentless motion with geometry animations. Working-class rage.",
+    "metadata": {
+      "category": "gig_economy",
+      "energy_score": 0.92,
+      "viral_coefficient": 2.6,
+      "trend_tags": ["labor", "inequality", "capitalism"]
+    }
+  },
+  {
+    "template_id": "AMP-005",
+    "prompt": "Celestial map of Bitcoin/Ethereum/Solana orbiting as planets in quantum lattice, pathways connecting with golden ratio and superpositioned wave functions (ψ(t)). Meteor altcoins streak. Central supernova: 'To The Moon!' with math symbols. Metrics: 'BTC Dominance: 42%', 'Volatility: 2.9x', 'Diamond Hands: 67 Nodes'. Colors: Bitcoin orange, Ethereum purple, Solana teal, cosmic black. Style: crypto meme + astronomical chart + psychedelic opera + glitch superpositioned art. 9:16 vertical, rotating animations with quantum geometry.",
+    "metadata": {
+      "category": "crypto_HODL",
+      "energy_score": 0.89,
+      "viral_coefficient": 2.9,
+      "trend_tags": ["crypto", "HODL", "finance"]
+    }
+  },
+  {
+    "template_id": "AMP-006",
+    "prompt": "Panopticon tower of smartphone screens with endless scrolls, prisoners chained to 'like' buttons, algorithm eyes watching with superimposed quantum equations (e^{iπ}). Golden ratio bars, metrics: 'Attention Extracted: 94%', 'Autonomy Lost: -81%', 'Viral Entrapment: 3.2x'. Colors: notification red, corporate blue, neon green, shadow black. Style: Orwellian psychedelic + digital rights poster + glitchcore warning + superpositioned art. 9:16 vertical, scrolling animations with math geometry. Algorithm truth.",
+    "metadata": {
+      "category": "algorithm_prison",
+      "energy_score": 0.94,
+      "viral_coefficient": 3.2,
+      "trend_tags": ["social_media", "surveillance", "freedom"]
+    }
+  },
+  {
+    "template_id": "AMP-007",
+    "prompt": "Desert landscape with pixelated NFTs dissolving into mirages, pathways to empty oasis 'Utility?' with superpositioned math symbols (∑|ψ_i⟩). Investor skeletons in sand, metrics: 'Floor Price: -89%', 'Hype Cycle: Collapsed', 'Survivor Nodes: 14'. Colors: desert gold, mirage blue, bone white, sunset orange. Style: crypto satire + surrealist painting + memetic archaeology + glitch superpositioned art. 9:16 vertical, shifting animations with quantum geometry. Cautionary humor.",
+    "metadata": {
+      "category": "NFT_satire",
+      "energy_score": 0.85,
+      "viral_coefficient": 2.2,
+      "trend_tags": ["NFT", "crypto", "satire"]
+    }
+  },
+  {
+    "template_id": "AMP-008",
+    "prompt": "Brain exploding into data streams—headlines, posts, notifications converging into black hole with Fibonacci spirals and quantum superpositioned equations (ρ). Each stream labeled, metrics: 'Info: 347 GB/day', 'Comprehension: 12%', 'Breakdown: 0.91'. Colors: overstimulation white, anxiety yellow, digital blue, void black. Style: data horror + psychedelic breakdown + glitchcore alert + superpositioned art. 9:16 vertical, accelerating animations with math geometry. Chronically online truth.",
+    "metadata": {
+      "category": "info_overload",
+      "energy_score": 0.91,
+      "viral_coefficient": 2.7,
+      "trend_tags": ["mental_health", "media", "burnout"]
+    }
+  },
+  {
+    "template_id": "AMP-009",
+    "prompt": "Silhouette splitting into avatars, platforms/personas drifting with fraying golden threads and superimposed wave functions (ψ(t)). Central void, metrics: 'Personas: 23', 'Authentic Self: 0.04', 'Coherence: Failing'. Colors: crisis purple, platform gradients, fragmentation gray, empty white. Style: existential psychedelic + digital philosophy + glitchcore crisis + superpositioned art. 9:16 vertical, drifting animations with quantum geometry. Authenticity angst.",
+    "metadata": {
+      "category": "identity_fracture",
+      "energy_score": 0.87,
+      "viral_coefficient": 2.5,
+      "trend_tags": ["identity", "authenticity", "social_media"]
+    }
+  },
+  {
+    "template_id": "AMP-010",
+    "prompt": "Cosmic marketplace mining attention from brains, packaged cubes traded by entities with golden extraction pipelines and quantum math symbols (|ψ⟩). Central black hole 'Profits', metrics: 'Harvested: $2.1T', 'Compensation: $0', 'Exploitation: 0.97'. Colors: attention gold, corporate steel blue, exploitation red, cosmic black. Style: economic horror + psychedelic critique + data manifesto + glitch superpositioned art. 9:16 vertical, flowing animations with geometry. Rage-share potential.",
+    "metadata": {
+      "category": "attention_economy",
+      "energy_score": 0.97,
+      "viral_coefficient": 3.4,
+      "trend_tags": ["capitalism", "exploitation", "digital_rights"]
+    }
+  }
+]
