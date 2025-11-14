@@ -1,0 +1,46 @@
+{
+  "template_id": "AMP-010",
+  "name": "Attention Economy Black Hole",
+  "prompt": "A cosmic marketplace where human attention is currency—mined from brains, packaged in glowing cubes, traded by corporate entities (Google, Meta, Amazon as giant cosmic traders). Attention streams flow into a central black hole labeled \"Quarterly Profits\". Golden ratio extraction pipelines connect users to corporations. Central black hole 'Profits', metrics: 'Harvested: $2.1T', 'Compensation: $0', 'Exploitation Index: 0.97'. Colors: attention gold (commodity), corporate steel blue (extraction), exploitation red (theft), cosmic black (endless greed). Style: economic horror + psychedelic capitalism critique + data manifesto + glitch superpositioned art. 9:16 vertical, flowing animations with geometry. Rage-share potential.",
+  "metadata": {
+    "category": "attention_economy",
+    "energy_score": 0.97,
+    "viral_coefficient": 3.4,
+    "trend_tags": ["capitalism", "exploitation", "digital_rights"]
+  },
+  "visual_elements": {
+    "structure": "Cosmic marketplace with attention cubes and extraction pipelines",
+    "motion": "Streams flowing into black hole, pulsing cubes",
+    "overlays": "Metrics flickering as integrated qubits",
+    "color_palette": ["attention gold", "corporate steel blue", "exploitation red", "cosmic black"],
+    "style": "Economic horror visualization + psychedelic critique + data rights manifesto + glitchcore",
+    "format": "9:16 vertical, 1080x1920, 30 FPS, looping",
+    "quantum_enhancements": {
+      "geometry": "Golden ratio pipelines (Φ = 1.618)",
+      "math_symbols": ["|ψ⟩ = α|0⟩ + β|1⟩ (superposition of attention states)"],
+      "superposition_art": "Overlaid wave interference and entangled fractals"
+    }
+  },
+  "audio_layer": {
+    "primary": "Trending TikTok/Reels audio (glitch-hop for corporate critique)",
+    "alternative": "Royalty-free dystopian synth loop",
+    "effects": "Quantum hums, extraction pulses"
+  },
+  "usage": {
+    "platforms": ["TikTok", "Instagram Reels", "YouTube Shorts", "Discord", "Reddit (r/CryptoCurrency, r/AIart)"],
+    "ctas": ["Tag a friend trapped in the economy!", "Save this truth!"],
+    "hashes": ["#AttentionEconomy", "#CapitalismCritique", "#DigitalRights", "#QuantumMeme"],
+    "posting": "Schedule 3-5/week at 7-9 PM via Predis.ai",
+    "engagement": "Reply in 60s, launch #QuantumMemeChallenge for remixes"
+  },
+  "integration": {
+    "tools": ["Grok (xAI): Prompting for quantum math and adaptive generation", "Perplexity AI: Trend research for exploitation metrics", "Leonardo AI: Rendering glitchcore visuals and superpositioned art"],
+    "thesis_alignment": "Event-driven hooks for trend spikes, dynamic metadata for energy tracking, ethereal architecture for distributed lattice"
+  },
+  "predicted_outcomes": {
+    "engagement_rate": "8-12% (Reels/TikTok)",
+    "viral_coefficient": 3.4,
+    "reach": "10,000-50,000 views",
+    "probability": "75-85% niche virality"
+  }
+}
