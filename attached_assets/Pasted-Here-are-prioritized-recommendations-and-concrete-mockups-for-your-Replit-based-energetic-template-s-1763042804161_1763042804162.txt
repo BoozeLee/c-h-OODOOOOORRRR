@@ -1,0 +1,130 @@
+Here are prioritized recommendations and concrete mockups for your Replit-based energetic template system MVP, combining all three options:
+
+***
+
+### 1. Option to Prioritize for Rapid MVP Delivery
+
+**Best for MVP:**  
+Start with **Option 3: AI-Powered Template Creator**—this delivers immediate value, leverages Perplexity AI for dynamic prompts, and can be built rapidly on Replit as a Python/Flask API with React/Vite frontend.  
+- MVP: Minimal but real end-to-end functionality (input → API research → prompt generation → UX export).[1][2][3]
+- You can then incrementally add Option 1 (trend expansion/updating) and Option 2 (template management, categories, history).
+
+***
+
+### 2. Combined Roadmap (Merging All Options)
+
+**Phase 1: Core Template Creator (MVP)**  
+- User inputs topic or selects narrative  
+- Perplexity API fetches real-time, grounded context  
+- App generates prompt in Amphetamemes style
+
+**Phase 2: Enhanced Generator**  
+- Researches trending topics automatically  
+- Expands categories, suggests new prompts  
+- Auto-updates templates using event hooks + Perplexity data
+
+**Phase 3: Full Template Management**  
+- Stores all templates in database  
+- Browse by category/trend, customize in-app  
+- Export (txt, CSV, JSON, image screenshot)  
+- Remixes, versioning, and sharing features
+
+***
+
+### 3. Perplexity API Calls for Integration
+
+**Key Endpoints**:  
+- `/search` – for trending topics/research (limit: 3 req/sec, burst up to 3)  
+- `/chat/completions` – for generative completions (limit: 5 req/min per token for deep model; 50 for standard)[4][5][6][7]
+- Use async/await, retry with backoff, and monitor 429 errors[8][9][4]
+
+**Rate Limit Planning**:  
+- Free tier: ~5k/month; Pro tier: 50k/month[5]
+- For MVP: average <1000 calls/month is safe  
+- If serving heavy traffic, cache common prompts to stay within limits.
+
+***
+
+### 4. Replit Stack & Runtime
+
+**Recommended Stack**:  
+- **Backend**: Python (Flask/FastAPI) for API glue, modular event hooks, data handling  
+- **Frontend**: React (with Vite) or Next.js for fast, interactive UI  
+- **Database**: Replit built-in DB or MongoDB for early prototype  
+- **Agent Integration**: Replit’s built-in agent can automate setup and even some coding[2][3][1]
+
+Why? Python is most compatible with Perplexity API, event hooks, and light ML. React/Vite is well-supported and instant to deploy on Replit with beautiful, flexible UI.
+
+***
+
+### 5. UX Flows for Template Customization & Export
+
+#### Main Flows:
+1. **Landing/Topic Entry**
+   - Enter custom topic, select trending theme, or choose from category (Climate, AI…)
+2. **Template Generation**
+   - AI researches context, auto-generates adaptive prompt
+   - Preview prompt, with highlighted dynamic narrative tags
+3. **Customization**
+   - Adjust mood/style sliders (psychedelic⇄comic, rebellious⇄serious)
+   - Edit or add personal notes, tags, or remix prompt
+   - View evolution history, event log
+4. **Export/Share**
+   - Download as text, CSV, or JSON
+   - One-click “post as art card” (image), share to socials
+   - Save to user library (with privacy toggle)
+
+#### Wireframe Steps
+```
+[Home] -> [Input Topic/Choose Trend] -> [Template Preview] -> [Customize/Remix] -> [Export/Save/Share]
+```
+For MVP, you may collapse Customize and Export into one step.
+
+***
+
+### 6. Example Replit Project Structure
+
+```plaintext
+/ (root)
+├── app.py            # Flask/FastAPI backend
+├── templates/
+│    └── index.html   # Minimal initial UI if no React
+├── static/
+│    └── main.css
+├── src/
+│    ├── components/  # React: TopicInput, PromptPreview, Customizer, Exporter
+│    └── App.jsx
+├── db.py             # Simple DB connection/handler
+├── api/
+│    └── perplexity.py  # API wrapper utils/caching
+├── event_hooks.py    # Core logic for event-driven template updates
+├── models/
+│    └── template.py  # Template schema, event/history logic
+├── README.md
+└── requirements.txt
+```
+
+***
+
+Would you like specific Flask API and React component stubs, or a concrete Perplexity endpoint integration example in Python Python?
+
+[1](https://betterstack.com/community/guides/ai/replit-vs-lovable/)
+[2](https://replit.com/discover/v0-alternatives-best-option-you)
+[3](https://www.youtube.com/watch?v=MSFrqc0sq3c)
+[4](https://docs.perplexity.ai/guides/rate-limits-usage-tiers)
+[5](https://www.byteplus.com/en/topic/536561)
+[6](https://docs.perplexity.ai/getting-started/quickstart)
+[7](https://docs.perplexity.ai/guides/search-guide)
+[8](https://www.apideck.com/blog/how-to-get-your-perplexity-api-key)
+[9](https://www.eesel.ai/blog/perplexity-ai-api)
+[10](https://www.perplexity.ai/hub/legal/perplexity-api-terms-of-service)
+[11](https://zuplo.com/learning-center/perplexity-api)
+[12](https://orq.ai/blog/api-rate-limit)
+[13](https://www.qodo.ai/blog/replit-alternatives/)
+[14](https://slickplan.com/blog/figma-user-flow)
+[15](https://www.visily.ai/blog/ux-workflow-design-kits)
+[16](https://pageflows.com)
+[17](https://www.datastudios.org/post/perplexity-ai-all-available-models-modes-and-how-they-differ-in-late-2025)
+[18](https://www.aifordevteams.com/blog/lovable-vs-replit-vs-bolt-new-vs-vercel-v0-which-one-is-the-best-tool-for-poc-and-mvp-development)
+[19](https://www.justinmind.com/blog/user-flow-tools/)
+[20](https://www.mockplus.com/blog/post/user-flow-tools)
