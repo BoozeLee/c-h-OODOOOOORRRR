@@ -1,0 +1,104 @@
+{
+  "quantum_art_marketplaces": [
+    {
+      "name": "Quantum Art | Verse",
+      "description": "Curated digital art platform featuring works by leading photographers and generative artists from 2021-2023.",
+      "url": "https://verse.works/quantum-art"
+    },
+    {
+      "name": "Quantum Art (Delphi Digital)",
+      "description": "Dedicated NFT marketplace for photography launched in 2021, making NFT photography accessible to artists and collectors.",
+      "url": "https://members.delphidigital.io/projects/quantum-art"
+    },
+    {
+      "name": "Quantum Art - Etsy",
+      "description": "Selection of unique or custom handmade quantum art pieces.",
+      "url": "https://www.etsy.com/market/quantum_art"
+    },
+    {
+      "name": "Quantum Art - Collection | OpenSea",
+      "description": "Ethereum-based NFT collection with unique art pieces.",
+      "url": "https://opensea.io/collection/quantum-art-bmf?tab=items"
+    },
+    {
+      "name": "Quantum Traders - Collection | NFT Marketplace - Solanart",
+      "description": "First marketplace on Solana to buy, trade and sell non-fungible tokens (NFTs).",
+      "url": "https://solanart.io/collections/quantumtraders"
+    },
+    {
+      "name": "Quantum Art (artnet)",
+      "description": "Artists translating quantum fields into uncanny art and otherworldly visual experiences.",
+      "url": "https://news.artnet.com/art-world/quantum-art-2681337"
+    },
+    {
+      "name": "Justin Aversano's Quantum Art Ethereum NFT Platform",
+      "description": "Photo NFT platform Quantum Art raised a $7.5 million Series A round led by True Ventures.",
+      "url": "https://decrypt.co/92463/justin-aversano-quantum-art-ethereum-nft-platform-7-5m"
+    },
+    {
+      "name": "Quantum (Whitewall Art)",
+      "description": "Platform founded by Justin Aversano to uplift, support, and sustain artists working in Web3.",
+      "url": "https://whitewall.art/art/how-quantum-brings-together-the-web3-community-online-and-in-person/"
+    },
+    {
+      "name": "Quantum Art - Chain broker",
+      "description": "Metrics including price, market cap, trading volume for Quantum Art project.",
+      "url": "https://chainbroker.io/projects/quantum-art/"
+    },
+    {
+      "name": "Quantum Art Mint Pass",
+      "description": "NFT collection on OpenSea.",
+      "url": "https://newnftcollections.com/nft-collections/quantum-art-mint-pass/"
+    }
+  ],
+  "amp006_exploration": {
+    "template_id": "AMP-006",
+    "name": "Social Media Algorithm Prison",
+    "prompt": "A panopticon surveillance tower made of smartphone screens, each displaying an endless scroll of dopamine-triggering content. Users are pixelated prisoners in cells, chained to \"like\" buttons. Algorithm eyes (corporate logos: Meta, TikTok, X) watch from the tower. Central void where authentic self should be. Golden ratio bars confine movement. Central void: \"Algorithm Prison\". Metrics: \"Attention Extracted: 94%\", \"Autonomy Lost: -81%\", \"Viral Entrapment: 3.2x\". Colors: notification red (addiction), corporate blue (surveillance), neon green (manufactured trends), shadow black. Style: Orwellian psychedelic + digital rights protest poster + glitchcore warning. 9:16 vertical, screens endlessly scrolling, eyes tracking. Truth bomb for the algorithm-aware.",
+    "metadata": {
+      "category": "algorithm_prison",
+      "energy_score": 0.94,
+      "viral_coefficient": 3.2,
+      "trend_tags": ["social_media", "surveillance", "freedom"]
+    },
+    "visual_elements": {
+      "structure": "Panopticon tower with smartphone screens and pixelated prisoners",
+      "motion": "Endless scrolling screens, tracking eyes, snapping chains",
+      "overlays": "Metrics flickering as integrated qubits, wave interference patterns",
+      "color_palette": ["notification red", "corporate blue", "neon green", "shadow black"],
+      "style": "Psychedelic comix + quantum circuit diagrams + data visualization glitchcore",
+      "format": "9:16 vertical, 1080x1920, 30 FPS, looping",
+      "quantum_enhancements": {
+        "geometry": "Golden ratio bars (Φ = 1.618), Fibonacci spirals in surveillance patterns",
+        "math_symbols": ["ρ (density matrix for trapped states)", "|ψ⟩ = α|like⟩ + β|scroll⟩ (superposition of addiction)"],
+        "superposition_art": "Overlaid wave interference, entangled fractals pulsing with corporate logos"
+      }
+    },
+    "audio_layer": {
+      "primary": "Trending TikTok/Reels audio (dystopian glitch-hop for surveillance critique)",
+      "alternative": "Royalty-free panopticon echo loop",
+      "effects": "Notification pings, chain rattles, quantum surveillance hums"
+    },
+    "usage": {
+      "platforms": ["TikTok", "Instagram Reels", "YouTube Shorts", "Discord (Crypto Nation, Cracking Crypto)", "Reddit (r/technology, r/privacy)"],
+      "ctas": ["Tag someone trapped in the algorithm!", "Save this wake-up call!"],
+      "hashes": ["#AlgorithmPrison", "#QuantumMeme", "#SurveillanceState", "#DigitalFreedom"],
+      "posting": "Schedule 3-5/week at 7-9 PM via Predis.ai, align with 2025 privacy scandals (e.g., post-Data Act leaks)",
+      "engagement": "Reply in 60s, launch #AlgoPrisonChallenge for UGC remixes"
+    },
+    "integration": {
+      "tools": ["Grok (xAI): Quantum consciousness prompting for adaptive surveillance context and math integration", "Perplexity AI: Real-time trend research for autonomy loss metrics (-81%) and digital rights synthesis", "Leonardo AI: Rendering psychedelic overlays, superpositioned fractals, and glitchcore visuals in panopticon elements"],
+      "thesis_alignment": "Event-driven hooks for social trend spikes, dynamic metadata for energy tracking (aligned with CoinDesk queries), ethereal architecture for distributed surveillance nodes"
+    },
+    "exploration_2025": {
+      "current_context": "November 13, 2025: Amid global Data Privacy Act rollout, social media scandals spike with Meta fined $2.3B for surveillance practices, TikTok algorithms exposed for 85% user addiction rates, and X under investigation for autonomy erosion. Template adapts to highlight dopamine chains and corporate eyes at $1.2T attention economy valuation.",
+      "predicted_outcomes": {
+        "engagement_rate": "8-12% (Reels/TikTok)",
+        "viral_coefficient": 3.2,
+        "reach": "10,000-50,000 views, amplified by privacy activism communities",
+        "probability": "75-85% niche virality in tech/privacy spaces"
+      },
+      "visual_exploration": "Searched psychedelic digital surveillance art inspirations for template rendering and remixing"
+    }
+  }
+}
